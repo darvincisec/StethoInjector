@@ -1,5 +1,5 @@
 # StethoInjector
-Inspired from [mobilesecurity](https://github.com/m0bilesecurity) [RMS tool](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security) which dynamically injects Stetho library created a counterpart to perform static tampering. This script tampers the apk to inject Facebook Stetho library(http://facebook.github.io/stetho) and Stetho initialization code to inspect app sandbox data via Chrome browser even on a non-rooted device
+Inspired from [m0bilesecurity](https://github.com/m0bilesecurity) [RMS tool](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security) which dynamically injects Stetho library created a counterpart to perform static tampering. This script tampers the apk to inject Facebook Stetho library(http://facebook.github.io/stetho) and Stetho initialization code to inspect app sandbox data via Chrome browser even on a non-rooted device
 
 ## Initialize Stetho Library
 ```Java
@@ -59,6 +59,6 @@ You can also modify the data inside databases or shared preferences. Stetho also
 # Demo
 For a demo used LastPass Authenticator and Duo Authenticator to inject Stetho library and initialize it. Once the tampered app is executed on a device, you can inspect the applications via Chrome browser.
 
-![Demo](demo.gif)
+![Demo](Demo.gif)
 
-# Enjoy hacking!!!
+### Enjoy hacking!!!
